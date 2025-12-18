@@ -9,7 +9,7 @@ export default function Providers({ children }: { children: React.ReactNode }) {
     <LanguageProvider>
       <div className="min-h-screen bg-white text-slate-900">
         <Navbar />
-        <main className="w-full pb-16 pt-10">{children}</main>
+        <main className="w-full px-4 pb-16 pt-10 md:px-6 lg:px-8">{children}</main>
         <Footer />
       </div>
     </LanguageProvider>

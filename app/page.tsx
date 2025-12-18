@@ -62,7 +62,7 @@ export default function Home() {
                   <div className="marquee-track">
                     {upcomingChits.map((chit, idx) => (
                       <div key={`${chit.id}-${idx}`} className="marquee-item relative">
-                        <span className="max-w-[140px] truncate text-sm font-semibold">{chit.name[lang]}</span>
+                        <span className="text-sm font-semibold">Chit</span>
                         <span className="text-base font-bold">{formatCurrency(chit.amount)}</span>
                         <span className="text-[11px] text-white/80">
                           {chit.durationMonths} months · {chit.members} members ·{" "}
